@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jquary_load</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#ld").click(function(){
+
+           
+            $("#demo").load("load.txt");
+        })
+
+        })
+
+    </script>
+</head>
+<body>
+     <center>
+        <p id="demo">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio error natus mollitia sapiente culpa, reprehenderit dignissimos molestias, cumque excepturi unde recusandae explicabo amet libero repellat nulla quas eos? Facilis, dolore Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non tenetur nostrum numquam mollitia velit iure sunt ab soluta accusamus rem molestiae, hic provident! Facilis illum placeat modi esse consectetur.
+        </p>
+        <button type="button" id="ld">Click To Load Data >>></button>
+     </center>
+</body>
+</html>

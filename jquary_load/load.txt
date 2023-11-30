@@ -1,0 +1,3 @@
+  what Is Load ?
+
+    ANS: Load Is Used As method in Jquary and it is load on server And load data without page refresh or page reload.
